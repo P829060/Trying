@@ -1,0 +1,16 @@
+.frosted-glow-btn {
+  background-color: rgba(0, 0, 80, 0.5);         /* Frosted dark blue */
+  backdrop-filter: blur(5px);                   /* Glass blur effect */
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);    /* Slight white border */
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.frosted-glow-btn:hover {
+  background-color: rgba(0, 0, 100, 0.6);        /* Slightly darker on hover */
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5); /* Soft glow */
+  transform: scale(1.05);                       /* Slight zoom effect */
+}
