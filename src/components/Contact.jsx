@@ -49,7 +49,7 @@ export default function Contact() {
     <section id="contact" className="block contact-block mb-2">
       <Container fluid>
         <div className="title-holder">
-          <h2>Want To Meet Your Star?</h2>
+          <h2>Want To Meet Your Star?(Alive Ones)</h2>
           <div className="subtitle">We can make it happen, fill in your details here!</div>
         </div>
         <div className="m-3">

@@ -5,7 +5,7 @@ import { BrowserRouter as Router ,Routes,Route,Link } from 'react-router-dom';
 import Contact from './Contact';
 import Home from './Home';
 import Top10 from './Top10';
-import About from './About';
+import Achievements from './Achievements';
 
 export default class Header extends Component {
   render() {
@@ -20,7 +20,7 @@ export default class Header extends Component {
             <Nav className="ms-auto">
             <Nav.Link as={Link} to="/" className="px-3">Home</Nav.Link>
             <Nav.Link as={Link} to="/Top10" className="px-3">Top 10</Nav.Link>
-            <Nav.Link as={Link} to="/About" className="px-3">About</Nav.Link>
+            <Nav.Link as={Link} to="/Achievements" className="px-3">Achievements</Nav.Link>
             <Nav.Link as={Link} to="/Contact" className="px-3">Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
@@ -31,7 +31,7 @@ export default class Header extends Component {
             <Routes>
                 <Route path="/Contact"  element={<Contact/>}/>
                 <Route path="/Top10" element={<Top10/>}/>
-                <Route path="/About" element={<About/>}/>
+                <Route path="/Achievements" element={<Achievements/>}/>
                 <Route path="/" element={<Home/>}/>
             </Routes>
         </div>
