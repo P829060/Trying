@@ -189,7 +189,9 @@ export default class Info extends Component {
 
                     </>
                     <p className="player-highlight">{player.stats.clubs}</p>
-
+                    <>
+                    </>
+                    <>click for more</>
                     <p>{player.description}</p>
                   </div>
                 </div>
